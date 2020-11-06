@@ -1,0 +1,20 @@
+{
+  "name": "html-with-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup --config ./rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^6.1.0",
+    "prettier": "^2.1.1",
+    "rollup": "^2.32.1",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.2"
+  }
+}
